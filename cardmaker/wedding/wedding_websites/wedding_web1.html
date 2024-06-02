@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 67%;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-image: url(../images/back1.jpeg);
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 100px;
+            color: rgb(4, 4, 99);
+            font-family: 'Tangerine', serif;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            margin-top: 170px;
+            font-size: 40px;
+            color: rgb(18, 18, 73);
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 30px;
+            color: rgb(18, 18, 73);
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .details {
+            font-size: 30px;
+            color: black;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .details span {
+            font-size: 30px;
+            color: black;
+            text-align: center;
+            margin-bottom: 1rem;            
+        }
+
+        .details #d, #t, #v {
+            font-size: 30px;
+            color: black;
+            text-align: center;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            
+        }
+
+
+        #save{
+            font-size: 90px;
+            color: rgb(4, 4, 99);
+            text-align: center;
+            margin-bottom: 1rem;
+            font-family: 'Tangerine', serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>THE WEDDING OF</h2>
+        <h1><span id="groom">Vinil </span>& <span id="bride">Rupali</span></h1>
+        <p>INVITE YOU TO THEIR WEDDING CELEBRATION</p>
+        <div class="details">
+            <span id="d">Date:</span><span id="date">April 22, 2024</span><br>
+            <span id="t">Time:</span><span id="time"> 12:15 PM</span><br>
+            <span id="v">Venue:</span><span id="venue"> Mangal Bhavan, Bodwad, Dist - Jalgaon</span><br>
+        </div>
+        <p id="save">Save the date!</p>
+        
+    </div>
+    <script srv="../FORMS/wedding_form1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+</body>
+</html>

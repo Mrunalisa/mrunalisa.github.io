@@ -1,0 +1,87 @@
+/* Add custom styles for the invitation card */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    padding: 20px;
+    background-image: url(https://img.freepik.com/premium-vector/birthday-card-template-greeting-background-with-watercolor-flowers-blush-pink-roses-floral-frame_524325-70.jpg);
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 450px;
+    height: 400px;
+  
+}
+
+.card-body h1 {
+    margin-top: 0%;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    color: black;
+    font-size: 70px;
+}
+
+#msg{
+    margin-top: 0%;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    color: black;
+    font-size: 70px;
+}
+.card-body p {
+    margin-top: 0%;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    color: black;
+    font-size: 70px;
+}
+
+
+button {
+    background-color: #fff;
+    color: #6a225d;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #6a225d;
+    color: #fff;
+}
+#btn-download{
+    position: fixed;
+    top: 3%;
+    right:3%;
+}
+h4{
+    color: #6a225d;
+    font-size: 20px;
+    text-align: center;
+
+}
+#qr{
+    margin-left: 40%;
+    width: 20%;
+    height: 20%;
+    margin-bottom: 0%;
+  }
+
+#qr img{
+    width: 100%;
+    height: auto;
+    margin: 0%;
+}

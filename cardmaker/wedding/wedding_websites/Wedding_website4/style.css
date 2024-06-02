@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+nav{
+  background-color: rgb(246, 218, 218);
+}
+h1 span{
+    display: block;
+    width: 100%;
+    font-size: 100%;
+    font-family: 'Tangerine', serif;
+    text-indent: -60px;
+    margin-top: -5px;
+}
+
+.wedding-font{
+  font-size: 120px;
+  font-family: 'Tangerine', serif;
+}
+
+.nav-item{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+#ourstory p{
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#ourstory h2{
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#schedule h2{
+  font-size: 40px;
+  margin-top: 0%;
+  text-align: center;
+  margin: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-body p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.card-body h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+.header-container{
+  height: 100vh;
+  width: 100%;
+  background-image: url(./img/img1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .savethedate-conatiner, .footer-container{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.letter-s-1{
+    letter-spacing: 1px;
+    text-indent: 1px;
+}
+.savethedate-conatiner{
+    background-image: url(./img/img2.jpg);
+    background-position: bottom;
+}
+.map-link{
+    color: #ff5a00;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.map-link:hover {
+    color: #ff5a00;
+    text-decoration: underline;
+}
+
+.footer-container{
+    background-image: url(./img/img3.jpg);
+}
+
+footer{
+    display: block;
+  }
+  .blockquote {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+  }
+  
+  .blockquote-footer {
+    display: block;
+    font-size: 80%;
+    color: #6c757d;
+  }
+  
+  .blockquote-footer::before {
+    content: "\2014\00A0";
+  }
+  .card > .card-header + .list-group,
+.card > .list-group + .card-footer {
+  border-top: 0;
+}
+.card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 2px solid rgba(0, 0, 0, 0.125);
+  }
+
+  .modal-dialog-scrollable .modal-header,
+.modal-dialog-scrollable .modal-footer {
+  flex-shrink: 0;
+}
+
+.modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    border-top: 2px solid #dee2e6;
+  }
+  
+  .modal-footer > * {
+    margin: 0.25rem;
+  }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="birthday1.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
+<title>Birthday Card</title>
+</head>
+<body>
+    <form action="birthday1.html" method="GET">
+        <label for="recipient">Name of the person who has birthday:</label>
+        <input type="text" id="recipient" name="recipient" required>
+         <button type="submit">Submit</button>
+    </form>
+<div class="card" id="card">
+    <div class="text">
+        <h1>🎉 Happy Birthday! 🎉</h1>
+        <p>Wishing you a day filled with laughter, joy, and all the wonderful things life has to offer.</p>
+        <p>Come join us in celebrating <span id="recipientName">Mrunali's</span> special day!</p>
+    </div>
+    <h3>Scan this for more details</h3>
+    <img id="qr" class="qr-code" src="/images/qr/Birthday1.png" alt="QR Code">
+</div>
+<button onclick="downloadCard()">Download Card</button>
+<a href="../birthday_websites/formforbirthday.html"><button>Create Website</button></a>
+<script src="../download.js"></script>
+<script src="../formbirthday.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+/* Add custom styles for the birthday card */
+body {
+    font-family: "Briem Hand", cursive;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background: url('../images/birth1.jpg   ');
+    background-size: 100%;
+    background-position: center;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    margin: 2px 0;
+}
+
+.text {
+    padding: 2px;
+}
+
+.text h1 {
+    font-size: 24px;
+    margin-bottom: 1px;
+    color: #333;
+}
+
+.text p {
+    font-size: 18px;
+    color: #010101;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 1px;
+}
+
+.text span {
+    color: #a09c3f;
+    font-weight: bold;
+}
+
+/* Add this style for the download button */
+button {
+    padding: 10px 20px;
+    background-color: #bbb854;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-top: 2%;
+  }
+  
+  /* Add hover effect for the download button */
+  button:hover {
+    background-color: #656c09;
+  }
+  
+  #qr{
+    width: 30%;
+    height: 20%;
+  }

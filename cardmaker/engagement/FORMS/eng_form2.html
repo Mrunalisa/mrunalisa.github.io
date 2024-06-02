@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Party Details</title>
+<style>
+  /* Add custom styles for the form */
+  /* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eae7f5;
+  
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+h2 {
+  text-align: center;
+  color: #8155BA;
+}
+
+/* Form Styles */
+#contentForm {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+  color: #695E93;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+input[type="file"]{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8155BA;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #8155BA;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Engagement Party Details</h2>
+    <form action="../engagement_website/eng_web2.html" method="GET">
+      <label for="groom">Groom Name:</label>
+      <input type="text" id="groom" name="groom" required>
+
+      <label for="bride">Bride Name:</label>
+      <input type="text" id="bride" name="bride" required>
+
+      <label for="count">How many days left to your anniversary:</label>
+      <input type="text" id="count" name="count" required>
+
+      <label for="date">Date:</label>
+      <input type="text" id="date" name="date" required>
+
+      <label for="time">Time:</label>
+      <input type="text" id="time" name="time" required>
+
+      <label for="venue">Location:</label>
+      <input type="text" id="venue" name="venue" required>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="state">State:</label>
+      <input type="text" id="state" name="state" required>
+
+      <label for="img">Image:</label>
+      <input type="file" id="img" name="img" required>
+
+      <button type="submit">Create Engagement Card</button>
+    </form>
+</div>
+<script src="eng_form2.js"></script>
+</body>
+
+</html>
+
+
+
+

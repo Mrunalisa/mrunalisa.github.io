@@ -1,0 +1,126 @@
+/* Add custom styles for the landscape invitation card */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin-top: 1%;
+    background-color:  #ff5f5f;
+    border-radius: 20px;
+    
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+    max-width: 90%;
+}
+
+
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.card p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 20px;
+}
+.left-section #groomName{
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    padding-left: 100px;
+    color: black;
+}
+.left-section #brideName{
+    font-family: 'Tangerine', serif;
+    font-size: 60px;
+    padding-left: 180px;
+    color: black;
+}
+.right-section {
+    flex: 1;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.card h1 {
+    font-size: 80px;
+    margin-bottom: 10px;
+    font-family: 'Tangerine', serif;
+    color: black;
+    text-align: center;
+}
+
+.card-body p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+
+
+button {
+    background-color: #fff;
+    color: #ff5f5f;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 1%;
+}
+
+button:hover {
+    background-color: #ff5f5f;
+    color: #fff;
+}
+
+#qr{
+    margin-right: 15%;
+    width: 40%;
+    height: auto;
+  }
+
+#qr img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+
+    .card-body {
+        flex-direction: column;
+    }
+
+    .left-section,
+    .right-section {
+        padding: 0;
+        text-align: center;
+    }
+
+    #qr{
+        margin-right: 0;
+        width: 80%;
+    }
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="birthday3.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+<title>Birthday Card</title>
+</head>
+<body>
+    <form action="birthday3.html" method="GET">
+        <label for="recipient">Name of the person who has birthday:</label>
+        <input type="text" id="recipient" name="recipient" required>
+        <button type="submit">Submit</button>
+    </form>
+
+<div class="card" id="card">
+    <div class="container_text">
+        Scan this for more details about the party!
+    </div>
+    <img src="/images/qr/birthday3.png" alt="birthday" class="avatar">
+    <div class="text">
+        <h1>🎉 You're Invited To <span id="recipientName">Mrunali</span>'s ! 🎉</h1>
+        <p>Wishing you a fantastic day filled with love, laughter, and unforgettable moments.</p>
+        <p id="msg">Celebrate with us and make this special day even brighter!</p>
+    </div>
+</div>
+<button onclick="downloadCard()">Download Card</button>
+<a href="../birthday_websites/formforbirthday3.html"><button>Create Website</button></a>
+<script src="../download.js"></script>
+<script src="../formbirthday.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+</body>
+</html>

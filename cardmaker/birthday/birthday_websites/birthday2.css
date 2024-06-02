@@ -1,0 +1,90 @@
+/* Add custom styles for the landscape invitation card */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+    max-width: 90%;
+}
+
+.card-header {
+    background-color: #ff5f5f;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right-section {
+    flex: 1;
+    padding-left: 20px;
+    text-align: right;
+}
+
+.card-body h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.card-body p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.card-footer {
+    background-color: #ff5f5f;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.btn-download {
+    background-color: #fff;
+    color: #ff5f5f;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-download:hover {
+    background-color: #ff5f5f;
+    color: #fff;
+}
+
+#qrcode{
+    margin-left: 100%;
+    width: 30%;
+    height: 30%;
+  }
+
+h3{
+  margin-right: 80px;
+}

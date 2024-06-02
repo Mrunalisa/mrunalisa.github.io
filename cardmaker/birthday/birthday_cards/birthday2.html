@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="birthday2.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+<title>Landscape Invitation Card</title>
+</head>
+<body>
+    <form action="birthday2.html" method="GET">
+        <label for="recipient">Name of the person who has birthday:</label>
+        <input type="text" id="recipient" name="recipient" required>
+         <button type="submit">Submit</button>
+    </form>
+<div class="card" id="card">
+    <div class="card-header">
+        <h1>🎉 You're Invited! 🎉</h1>
+    </div>
+    <div class="card-body">
+        <div class="left-section">
+            <h1><span id="recipientName">John</span>'s Birthday </h1>
+            <p>Come and share in the joy and festivities as we mark this special occasion together. Let's create wonderful memories and cherish moments of laughter and fun.</p>
+                <p>Your presence will make the day even more special!</p>
+                <p>We can't wait to celebrate with you!</p>
+        </div>
+        <div class="right-section">
+            <h3>Scan this for more details</h3>
+            <img src="/images/qr/Birthday2.png" alt="invitation image" id="qr">
+        </div>
+    </div>
+    <div class="card-footer">
+    </div>
+</div>
+<button onclick="downloadCard()">Download Card</button>
+<a href="../birthday_websites/formforbirthday2.html"><button>Create Website</button></a>
+<script src="../download.js"></script>
+<script src="../formbirthday.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+</body>
+</html>

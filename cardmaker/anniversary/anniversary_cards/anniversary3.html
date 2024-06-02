@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="anniversary3.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+<title>Anniversary Invitation Card</title>
+</head>
+<body>
+    <form action="../anniversary_cards/anniversary3.html" method="GET">
+        <label for="groom">Groom Name:</label>
+        <input type="text" id="groom" name="groom" required>
+        <label for="bride">Bride Name:</label>
+        <input type="text" id="bride" name="bride" required>
+        <button type="submit">Submit</button>
+    </form>
+<div class="card" id="card">
+    <p>Join us to celebrate our</p>
+    <h1>Wedding Anniversary</h1>
+    
+    <div class="card-body">
+        
+        <div class="left-section">
+           <h2><span id="groomName">King</span></h2>
+           <h2><span id="brideName">Queen</span></h2>
+        </div>
+        <div class="right-section">
+            <h3>Scan this for more details</h3>
+            <img src="../images/qrcode.png" alt="invitation image" id="qr">
+        </div>
+    </div>
+</div>
+<button onclick="downloadCard()">Download Card</button>
+<a href="../FORMS/anni_form3.html"><button>Create Website</button></a>
+<script src="../download.js"></script>
+<script src="../formeanniversary.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+</body>
+</html>

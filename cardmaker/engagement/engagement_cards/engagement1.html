@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="engagement1.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+<title>Invitation Card</title>
+
+</head>
+<body>
+    <form action="engagement1.html" method="GET">
+        <label for="groom">Groom Name:</label>
+        <input type="text" id="groom" name="groom" required>
+        <label for="bride">Bride Name:</label>
+        <input type="text" id="bride" name="bride" required>
+        <button type="submit">Submit</button>
+    </form>
+<div class="card" id="card">
+    <div class="card-body">
+        <p id="msg"> Ring Ceremony</p>
+        <h1><span id="groomName">Vinil</span>  &  <span id="brideName">Rupali</span></h1>
+        <h4>Scan this for more details about the party!</h4>
+    <img id="qr" src="/images/qr/eng_web1.png" alt="birthday" class="avatar">
+    </div>
+</div>
+
+<button id="btn-download" onclick="downloadCard()">Download Invitation</button>
+<a href="../FORMS/eng_form1.html"><button>Create Website</button></a>
+<script src="../download.js"></script>
+<script src="../cardengagement.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+</body>
+</html>

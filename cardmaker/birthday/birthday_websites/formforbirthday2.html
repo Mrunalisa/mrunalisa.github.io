@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Party Details</title>
+<style>
+  /* Add custom styles for the form */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #9449e5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #6801f8;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+    <h2>Party Details</h2>
+    <form action="birthday2.html" method="GET">
+        <label for="recipient">Recipient's Name:</label>
+        <input type="text" id="recipient" name="recipient" required>
+
+        <label for="date">Date of Party:</label>
+        <input type="text" id="date" name="date" required>
+
+        <label for="time">Time of Party:</label>
+        <input type="text" id="time" name="time" required>
+
+        <label for="location">Location of Party:</label>
+        <input type="text" id="location" name="location" required>
+
+        <button type="submit"  onclick="generateQRCode()">Create Birthday Card</button>
+    </form>
+</div>
+</body>
+<script src="../formbirthday.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcode@1.4.4/build/qrcode.min.js"></script>
+</html>
